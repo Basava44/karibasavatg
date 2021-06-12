@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>More about me</title>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="container">
+        <div class="data1">
+            <h2 class="subheading1">Hello!</h2>
+            <p class="paragraph">My name is <span class="name">Karibasaveshwara TG</span>,</p>
+            <p class="paragraph">I am passionate about learning new things,</p>
+            <p class="paragraph">I give my heart and soul to my work and</p>
+            <p class="paragraph"><span class="bold"> I am a type of person who believes in myself because if you believe in your self you can achieve anything</span></p>
+        </div>
+        <div class="data2">
+            <h2 class="subheading2">Skills</h2>
+            <div class="skills-container">
+                <div class="skill" class="your-element" data-tilt>HTML</div>
+                <div class="skill" class="your-element" data-tilt>CSS</div>
+                <div class="skill" class="your-element" data-tilt>javascript</div>
+                <div class="skill" class="your-element" data-tilt>C/C++</div>
+                <div class="skill" class="your-element" data-tilt>Python 3</div>
+                <div class="skill" class="your-element" data-tilt>Data Structures</div>
+                <div class="skill" class="your-element" data-tilt>sql</div>
+                <div class="skill" class="your-element" data-tilt>Nudi</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+    <script src="vanilla-tilt.js"></script>
+</body>
+</html>
